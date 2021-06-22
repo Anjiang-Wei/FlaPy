@@ -1,2 +1,3 @@
 PROJECT_NAME,PROJECT_URL,PROJECT_HASH,FUNCS_TO_TRACE,TESTS_TO_BE_RUN,NUM_RUNS
-sample_project,https://github.com/gruberma/python-tests-minimal-examples,4865a6a,,,5
+zbox,https://github.com/jiffyclub/zbox,ed30aee,,tests/test_zbox.py::test_gen,1
+travispy,https://github.com/menegazzo/travispy,54b6974,,travispy/_tests/test_stateful.py::Test::test_stateful[canceled-red-expected_true_properties6],1

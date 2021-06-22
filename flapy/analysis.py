@@ -155,6 +155,9 @@ class VirtualEnvironment:
 
     def cleanup(self) -> None:
         """Cleans up the virtual environment."""
+        
+        print("*******************Clean up**************")
+        print(self._env_dir)
         shutil.rmtree(self._env_dir)
 
     @property
@@ -202,6 +205,8 @@ class VirtualEnvironment:
             "source {}".format(os.path.join(self._env_dir, "bin", "activate")),
             "python -V",
         ]
+        
+           
         for package in self._packages:
             command_list.append(f"pip install {package}")
         command_list.extend(commands)
@@ -383,7 +388,11 @@ class PyTestRunner(AbstractRunner):
         with virtualenv(self._project_name, self._venv_path) as env:
             old_dir = os.getcwd()
             os.chdir(self._path)
-
+            print(self._path)
+            print(old_dir)
+            
+            coverage_file = self._path + '/coverage.xml'
+            direct = old_dir + '/' + self._project_name +'/coverage.xml'
             if self._output_log_file is None:
                 self._output_log_file = os.path.join(os.getcwd(), "output.log")
 
@@ -393,6 +402,7 @@ class PyTestRunner(AbstractRunner):
             env.add_package_for_installation("pytest==5.3.1")
             env.add_package_for_installation("pytest-cov==2.8.1")
             env.add_package_for_installation("benchexec==1.22")
+            env.add_package_for_installation("coverage")
 
             command = "runexec --output=/dev/stdout "  # --container "
             # if self._full_access_dir is not None:
@@ -409,9 +419,10 @@ class PyTestRunner(AbstractRunner):
                 command += "pytest "
 
             command += (
-                f"--cov={project_name} "
+                f"--cov "
+                #f"--cov={project_name} "
                 f"--cov-report=term-missing "
-                f"--cov-branch "
+                #f"--cov-branch "
                 f"-v "
                 f"--rootdir=. "
                 f"{self._tests_to_be_run} "
@@ -422,8 +433,29 @@ class PyTestRunner(AbstractRunner):
 
             if self._xml_coverage_file is not None:
                 command += f" --cov-report xml:{self._xml_coverage_file}"
-
-            out, err = env.run_commands([command])
+             
+            coverage_cmd = "coverage run -m --pylib pytest "
+            coverage_cmd +=  f"{self._tests_to_be_run} "
+            
+            print(self._tests_to_be_run)
+            
+            print("***************************************PASSAU UNIVERSITY**************************************")   
+                  
+            res_cmd = []
+            res_cmd.append(coverage_cmd)
+            
+            
+            coverage_cmd = "coverage report -m "
+            res_cmd.append(coverage_cmd)
+             
+     
+            coverage_cmd = "coverage xml "
+            res_cmd.append(coverage_cmd)
+            res_cmd.append(command)
+            #out, err = env.run_commands([command])
+            out, err = env.run_commands(res_cmd)
+            
+            shutil.copyfile(coverage_file, direct)
             os.chdir(old_dir)
             return out, err
 
@@ -554,9 +586,10 @@ class RandomPyTestRunner(PyTestRunner):
                 command += "pytest "
 
             command += (
-                f"--cov={project_name} "
+                f"--cov "
+                #f"--cov={project_name} "
                 f"--cov-report=term-missing "
-                f"--cov-branch "
+                #f"--cov-branch "
                 f"--random-order-bucket={self._config.random_order_bucket} "
                 f"-v "
                 f"--rootdir=. {self._tests_to_be_run} "
