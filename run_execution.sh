@@ -130,19 +130,16 @@ tar cJf "${RESULT_DIR}/results.tar.xz" \
 #   "${LOCAL_PROJECT_DIR}/non-deterministic" \
 #   "${LOCAL_PROJECT_DIR}/deterministic"
 cp "${LOCAL_PROJECT_DIR}/execution.log" "${RESULT_DIR}"
-debug_echo "Clean Up"
-
-tar xf "${RESULT_DIR}/results.tar.xz"
 
 cp "${LOCAL_PROJECT_DIR}/deterministic/tmp/"*coverage*.xml "${REPOSITORY_DIR}"
 
 echo "${REPOSITORY_DIR}"
 
 echo "Start Coverage Collection "
+python3 XML_Parser.py  "${REPOSITORY_DIR}" "${TESTS_TO_BE_RUN}" "${PROJECT_NAME}" "${RESULT_DIR}"
 
-python3 XML_Parser.py  "${REPOSITORY_DIR}" "${TESTS_TO_BE_RUN}" "${PROJECT_NAME}"
-
-#rm -rf "${LOCAL_PROJECT_DIR}"
+debug_echo "Clean Up"
+rm -rf "${LOCAL_PROJECT_DIR}"
 
 debug_echo "Deactivate Virtual Environment"
 deactivate

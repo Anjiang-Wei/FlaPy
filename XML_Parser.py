@@ -36,7 +36,7 @@ print(sys.argv)
 repo = sys.argv[1]
 test_to_be_run = sys.argv[2]
 project = sys.argv[3]
-
+result_dir = sys.argv[4]
 
 
 List_data.append(project)
@@ -114,4 +114,4 @@ print(code_identifers)
 
 List_data.append(code_identifers)
 
-append_list_as_row('test_coverage.csv', List_data)
+append_list_as_row(result_dir + '/test_coverage.csv', List_data)
