@@ -155,7 +155,7 @@ class VirtualEnvironment:
 
     def cleanup(self) -> None:
         """Cleans up the virtual environment."""
-        
+
         print("*******************Clean up**************")
         print(self._env_dir)
         shutil.rmtree(self._env_dir)
@@ -205,8 +205,8 @@ class VirtualEnvironment:
             "source {}".format(os.path.join(self._env_dir, "bin", "activate")),
             "python -V",
         ]
-        
-           
+
+
         for package in self._packages:
             command_list.append(f"pip install {package}")
         command_list.extend(commands)
@@ -390,7 +390,7 @@ class PyTestRunner(AbstractRunner):
             os.chdir(self._path)
             print(self._path)
             print(old_dir)
-            
+
             coverage_file = self._path + '/coverage.xml'
             direct = old_dir + '/' + self._project_name +'/coverage.xml'
             if self._output_log_file is None:
@@ -433,28 +433,28 @@ class PyTestRunner(AbstractRunner):
 
             if self._xml_coverage_file is not None:
                 command += f" --cov-report xml:{self._xml_coverage_file}"
-             
+
             coverage_cmd = "coverage run -m --pylib pytest "
             coverage_cmd +=  f"{self._tests_to_be_run} "
-            
+
             print(self._tests_to_be_run)
-            
-            print("***************************************PASSAU UNIVERSITY**************************************")   
-                  
+
+            print("***************************************PASSAU UNIVERSITY**************************************")
+
             res_cmd = []
             res_cmd.append(coverage_cmd)
-            
-            
+
+
             coverage_cmd = "coverage report -m "
             res_cmd.append(coverage_cmd)
-             
-     
+
+
             coverage_cmd = "coverage xml "
             res_cmd.append(coverage_cmd)
             res_cmd.append(command)
             #out, err = env.run_commands([command])
             out, err = env.run_commands(res_cmd)
-            
+
             shutil.copyfile(coverage_file, direct)
             os.chdir(old_dir)
             return out, err
