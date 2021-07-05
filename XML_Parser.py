@@ -4,9 +4,9 @@
 # In[1]:
 
 import os
-import re 
+import re
 import sys
-import string 
+import string
 import requests
 
 
@@ -22,7 +22,7 @@ def append_list_as_row(file_name, list_of_elem):
 	with open(file_name, 'a+', newline='',encoding='utf-8') as write_obj:
 	   csv_writer = writer(write_obj)
 	   csv_writer.writerow(list_of_elem)
-	
+
 
 
 List_data = []
@@ -64,7 +64,7 @@ root = tree.getroot()
 
 # In[128]:
 
-    
+
 for c_node in root.findall('sources/source'):
     file_dir = c_node.text
 
@@ -89,7 +89,7 @@ for country in root.findall('packages/package/classes/class'):
         hits = child.get('hits')
         if int(hits) == 1 :
             list_lines.append(int(line))
-    list_lines  = [i -1 for i in list_lines] 
+    list_lines  = [i -1 for i in list_lines]
     result['lines'] = list_lines
     list_line.append(result)
 
@@ -100,19 +100,18 @@ for elem in list_line:
         print(elem['file'])
         print(elem['lines'])
         try :
-        
+
              file_r = open(elem['file'],'r', encoding='utf-8')
              for position, line in enumerate(file_r):
-                    if position in elem['lines']: 
+                    if position in elem['lines']:
                           print(line)
                           List_code.append(line)
         except:
              pass
-code_identifers = " ".join(List_code) 
+code_identifers = " ".join(List_code)
 print(code_identifers)
 
 
 List_data.append(code_identifers)
 
-append_list_as_row('test_coverage.csv', List_data)                         
-
+append_list_as_row('test_coverage.csv', List_data)
