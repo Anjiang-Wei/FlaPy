@@ -9,11 +9,7 @@ import sys
 import string 
 import requests
 
-import matplotlib.pyplot as pltw
-import numpy as np
-import pandas as pd
 
-from sklearn.utils import shuffle
 from csv import writer
 import keyword
 import xml.etree.ElementTree as ET

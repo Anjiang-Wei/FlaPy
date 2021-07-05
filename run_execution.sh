@@ -113,16 +113,6 @@ flakyanalysis \
   --trace "${FUNC_TO_TRACE}" \
   --tests-to-be-run "${TESTS_TO_BE_RUN}"
 
-debug_echo "Deactivate Virtual Environment"
-deactivate
-
-pip install matplotlib
-pip install pandas 
-pip install numpy
-pip install sklearn
-pip install python-csv
-pip install elementpath
-
 debug_echo "Change directory back"
 cd "${CWD}" || exit 1
 
@@ -153,6 +143,9 @@ echo "Start Coverage Collection "
 python3 XML_Parser.py  "${REPOSITORY_DIR}" "${TESTS_TO_BE_RUN}" "${PROJECT_NAME}"
 
 #rm -rf "${LOCAL_PROJECT_DIR}"
+
+debug_echo "Deactivate Virtual Environment"
+deactivate
 
 debug_echo "Done"
 
