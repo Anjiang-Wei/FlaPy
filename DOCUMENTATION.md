@@ -6,6 +6,7 @@
 /scratch/${USER}                # SCRATCH
     /flapy                      # SCRATCH_ANALYSIS_DIR
     /flapy-results              # SCRATCH_RESULTS_DIR
+        /PROJ__XXXXX            # RESULT_DIR
 
 /local/hdd/${USER}              # LOCAL
     /PROJ
