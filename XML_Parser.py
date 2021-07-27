@@ -44,12 +44,10 @@ List_data.append(test_to_be_run)
 test_to_be_run = test_to_be_run.replace('/','.')
 
 
-print(repo)
-print(test_to_be_run)
-print(project)
-print(repo.split('local'))
+print(f"repo = {repo}")
+print(f"project = {project}")
 
-repo_dir = 'local'+ repo.split('local')[1]
+repo_dir = repo
 print(repo_dir)
 
 #coverage_xml = repo_dir+"/"+project+"_coverage1"+test_to_be_run+".xml"
