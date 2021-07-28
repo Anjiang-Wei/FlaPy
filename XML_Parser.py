@@ -66,9 +66,14 @@ root = tree.getroot()
 for c_node in root.findall('sources/source'):
     file_dir = c_node.text
 
+file_dir = file_dir.split('tmpy0cq65zt')
+length = len(file_dir)
 
 
 source_file = repo_dir+"/"
+
+if length == 2:
+	source_file = repo_dir+file_dir[1]+"/"
 count = 0
 list_line = []
 for country in root.findall('packages/package/classes/class'):
