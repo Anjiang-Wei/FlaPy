@@ -393,6 +393,7 @@ class PyTestRunner(AbstractRunner):
             env.add_package_for_installation("pytest==5.3.1")
             env.add_package_for_installation("pytest-cov==2.8.1")
             env.add_package_for_installation("benchexec==3.8")
+            env.add_package_for_installation("pytest-repeat")
 
             command = "runexec --output=/dev/stdout --hidden-dir=/home "  # --container "
             if self._full_access_dir is not None:
@@ -415,6 +416,9 @@ class PyTestRunner(AbstractRunner):
                 f"-v "
                 f"--rootdir=. "
                 f"{self._tests_to_be_run} "
+                f"--count=2 "
+                f"--repeat-scope=function "
+
             )
 
             if self._xml_output_file is not None:
@@ -537,6 +541,7 @@ class RandomPyTestRunner(PyTestRunner):
             env.add_package_for_installation("pytest-cov==2.8.1")
             env.add_package_for_installation("benchexec==3.8")
             env.add_package_for_installation("pytest-random-order==1.0.4")
+            env.add_package_for_installation("pytest-repeat")
 
             # command = ""
             command = "runexec --output=/dev/stdout --hidden-dir=/home "  # --container "
@@ -560,6 +565,8 @@ class RandomPyTestRunner(PyTestRunner):
                 f"--random-order-bucket={self._config.random_order_bucket} "
                 f"-v "
                 f"--rootdir=. {self._tests_to_be_run} "
+                f"--count=2 "
+                f"--repeat-scope=function "
             )
 
             if self._config.random_order_seed is not None:
