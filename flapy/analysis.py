@@ -419,7 +419,7 @@ class PyTestRunner(AbstractRunner):
                 f"{self._tests_to_be_run} "
                 f"--count=2 "
                 f"--repeat-scope=function "
-                f"--timeout=30 "
+                f"--timeout=10 "
 
             )
 
@@ -570,7 +570,7 @@ class RandomPyTestRunner(PyTestRunner):
                 f"--rootdir=. {self._tests_to_be_run} "
                 f"--count=2 "
                 f"--repeat-scope=function "
-                f"--timeout=30 "
+                f"--timeout=10 "
             )
 
             if self._config.random_order_seed is not None:
