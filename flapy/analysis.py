@@ -394,6 +394,7 @@ class PyTestRunner(AbstractRunner):
             env.add_package_for_installation("pytest-cov==2.8.1")
             env.add_package_for_installation("benchexec==3.8")
             env.add_package_for_installation("pytest-repeat")
+            env.add_package_for_installation("pytest-timeout")
 
             command = "runexec --output=/dev/stdout --hidden-dir=/home "  # --container "
             if self._full_access_dir is not None:
@@ -418,6 +419,7 @@ class PyTestRunner(AbstractRunner):
                 f"{self._tests_to_be_run} "
                 f"--count=2 "
                 f"--repeat-scope=function "
+                f"--timeout=30 "
 
             )
 
@@ -542,6 +544,7 @@ class RandomPyTestRunner(PyTestRunner):
             env.add_package_for_installation("benchexec==3.8")
             env.add_package_for_installation("pytest-random-order==1.0.4")
             env.add_package_for_installation("pytest-repeat")
+            env.add_package_for_ionstallation("pytest-timeout")
 
             # command = ""
             command = "runexec --output=/dev/stdout --hidden-dir=/home "  # --container "
@@ -567,6 +570,7 @@ class RandomPyTestRunner(PyTestRunner):
                 f"--rootdir=. {self._tests_to_be_run} "
                 f"--count=2 "
                 f"--repeat-scope=function "
+                f"--timeout=30 "
             )
 
             if self._config.random_order_seed is not None:
