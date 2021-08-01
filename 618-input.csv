@@ -76,7 +76,7 @@ cloud-validation-framework,https://github.com/prancer-io/cloud-validation-framew
 clu,https://github.com/nir0s/clu,77da967a4577ca4cf100cfe34e87b39ad88bf21c,,,1
 CMasher,https://github.com/1313e/CMasher,fccda3b76ac93e089f34be572b984b7718076756,,,1
 CmdKit,https://github.com/glentner/CmdKit,b8d4572612667080807b2b26d47c624a330c2872,,,1
-codespell,https://github.com/codespell-project/codespell/,88c768b084353662c255a58d122f46fbbe3d8de4,,,1
+codespell,https://github.com/codespell-project/codespell,88c768b084353662c255a58d122f46fbbe3d8de4,,,1
 codespell,https://github.com/codespell-project/codespell,cc51bbbe505cbc23eae32f52deb2cc7c8b33a0eb,,,1
 coinbase-commerce-python,https://github.com/coinbase/coinbase-commerce-python,d306fc562309edb909c8ace501c63327a7635975,,,1
 coinbasepro-python,https://github.com/danpaquin/coinbasepro-python,19cac25c51e592994cfa86ec487eef6a5c76718f,,,1
@@ -189,7 +189,6 @@ flask-apify,https://github.com/vitalk/flask-apify,f486d2616575be0e460ccf354d22ba
 flask_datepicker,https://github.com/mrf345/flask_datepicker,2dd57635413bddf73a0e064cd5b2f3a743b56f99,,,1
 Flaskerizer,https://github.com/brettvanderwerff/Flaskerizer,5a9724804f4e479fc3289e8644dc788adfeff06d,,,1
 flask_googletrans,https://github.com/mrf345/flask_googletrans,e7ec3057bdbe57bb30928edc41fdeb0d19a0984d,,,1
-Flask-Googletrans,https://github.com/mrf345/flask_googletrans/,e7ec3057bdbe57bb30928edc41fdeb0d19a0984d,,,1
 Flask-InterfacePubSub,https://github.com/rafaelportugal/Flask-InterfacePubSub,60904ceafed88e25c1504aa0300d37780c09c50b,,,1
 flask-ipban,https://github.com/Martlark/flask-ipban,882a25495be55609e5d9a058b8139b78836d64d4,,,1
 Flask-JWT-Router,https://github.com/joegasewicz/Flask-JWT-Router,0fb1e256c81409be6f08d8be12f07e5f58b4f914,,,1
@@ -509,7 +508,6 @@ rxpy-backpressure,https://github.com/daliclass/rxpy-backpressure,b1a7bddfb370884
 saga,https://github.com/saga-vcs/saga,7beaae8831696ce813aa85620387e416719198db,,,1
 samwise,https://github.com/Cloudzero/samwise,3aa79ba20f3a151be3fd691bd5f6f5f250d16334,,,1
 sandman,https://github.com/jeffknupp/sandman,253ea4d15cbccd9f0016d66fedd7478614cc0b2f,,,1
-sandman,https://github.com/jeffknupp/sandman/,253ea4d15cbccd9f0016d66fedd7478614cc0b2f,,,1
 sanic-envconfig,https://github.com/jamesstidard/sanic-envconfig,c68e09def2ce04c7ab91e443680ff64dc2ef61e1,,,1
 Santaslist,https://github.com/obihann/Santaslist,e678a70b41047defc42261d0b483fb75677c5c10,,,1
 schemaindex,https://github.com/qiyangduan/schemaindex,83bfb96c78d194370b068e11f89a9e4d6af48a46,,,1
@@ -517,7 +515,6 @@ schemas,https://github.com/CIMAC-CIDC/schemas,c2b011f49361e01a2816076b9436ae46d7
 schematics_to_swagger,https://github.com/Alexei-Kornienko/schematics_to_swagger,d9c1c9e43a25c5a4ff60701b3bf22fc039c815c2,,,1
 scikit-fem,https://github.com/kinnala/scikit-fem,4aa87e15fd05dfbbad2367ef2303f398d5afddcc,,,1
 scikit-hep,https://github.com/scikit-hep/scikit-hep,e78234da9e754e380a7d871afb56b20baa73b99b,,,1
-scikit-hep,https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b,,,1
 SCout,https://github.com/holzkohlengrill/SCout,8fd1eca0607b27d6e0c537b2ea1211d23356edff,,,1
 scrapbook,https://github.com/nteract/scrapbook,f681427fcc721e303e3d21fb3974b3bfa43d5445,,,1
 scrapyrt,https://github.com/scrapinghub/scrapyrt,f8ee7b79fcfeaf4da83d831147d3ae28d8cf5f90,,,1
@@ -526,7 +523,6 @@ sdklib,https://github.com/ivanprjcts/sdklib,5384b1c7f05abd6350151c08ad6a4a8b5855
 securenative-python,https://github.com/securenative/securenative-python,0eae99733b7565341487ad32f044be8dc51032cd,,,1
 selenium-wire,https://github.com/wkeeling/selenium-wire,f80339bc2da0485fbba4165375c009b90efdb3c2,,,1
 serpextract,https://github.com/Parsely/serpextract,aec8f2bd79c66953938569a24b05c693ab70b4ce,,,1
-serpextract,https://github.com/Parsely/serpextract/,aec8f2bd79c66953938569a24b05c693ab70b4ce,,,1
 sfpl-scraper,https://github.com/kajchang/sfpl-scraper,d97cc55f28fc75bf8de3fe5472ed0c2c55a09081,,,1
 sheetfu,https://github.com/socialpoint-labs/sheetfu,68015416ef34bd20553c7f667ece001a36371f7b,,,1
 sigpy,https://github.com/mikgroup/sigpy,3786765ad055dc246fba726306d6dd6a6984a458,,,1
@@ -602,7 +598,7 @@ wkr.py,https://github.com/wroberts/wkr.py,dbb3c1742c10bfaf697fa276d2cc8885e144ab
 wopmars,https://github.com/aitgon/wopmars,33680f94163d82ce43557cf7f87a5f9ead496fdc,,,1
 wqio,https://github.com/Geosyntec/wqio,8fcd57cc8b8365208eeee0162438307db0ca0dbb,,,1
 wsstat,https://github.com/fitblip/wsstat,f7c91eb8765a801ad5e0504ca22ee2ec832cf682,,,1
-xenavalkyrie,https://github.com/xenadevel/PyXenaValkyrie/,92b45f1f37a5589cbdb9224a287fa0426d2c8d47,,,1
+xenavalkyrie,https://github.com/xenadevel/PyXenaValkyrie,92b45f1f37a5589cbdb9224a287fa0426d2c8d47,,,1
 xphyle,https://github.com/jdidion/xphyle,9f66b129130a368611fb2ab0027c6218b1a13a50,,,1
 yadll,https://github.com/pchavanne/yadll,6114234a8a25cfda7a596b9a6e75bb121de6f4d2,,,1
 yahooquery,https://github.com/dpguthrie/yahooquery,ff9c062222d59b3d9f8abfaeeb706cd7af8fe690,,,1
