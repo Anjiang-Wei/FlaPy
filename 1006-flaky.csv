@@ -129,7 +129,7 @@ clu,https://github.com/nir0s/clu,77da967a4577ca4cf100cfe34e87b39ad88bf21c
 Cmaker,https://github.com/ychnlgy/Cmaker,dc70f0edba931f3b8823e5b2946b68348c768d85
 CMasher,https://github.com/1313e/CMasher,fccda3b76ac93e089f34be572b984b7718076756
 CmdKit,https://github.com/glentner/CmdKit,b8d4572612667080807b2b26d47c624a330c2872
-codespell,https://github.com/codespell-project/codespell/,88c768b084353662c255a58d122f46fbbe3d8de4
+codespell,https://github.com/codespell-project/codespell,88c768b084353662c255a58d122f46fbbe3d8de4
 codespell,https://github.com/codespell-project/codespell,cc51bbbe505cbc23eae32f52deb2cc7c8b33a0eb
 coinbase-commerce-python,https://github.com/coinbase/coinbase-commerce-python,d306fc562309edb909c8ace501c63327a7635975
 coinbasepro-python,https://github.com/danpaquin/coinbasepro-python,19cac25c51e592994cfa86ec487eef6a5c76718f
@@ -291,7 +291,6 @@ flask-apify,https://github.com/vitalk/flask-apify,f486d2616575be0e460ccf354d22ba
 flask_datepicker,https://github.com/mrf345/flask_datepicker,2dd57635413bddf73a0e064cd5b2f3a743b56f99
 Flaskerizer,https://github.com/brettvanderwerff/Flaskerizer,5a9724804f4e479fc3289e8644dc788adfeff06d
 flask_googletrans,https://github.com/mrf345/flask_googletrans,e7ec3057bdbe57bb30928edc41fdeb0d19a0984d
-Flask-Googletrans,https://github.com/mrf345/flask_googletrans/,e7ec3057bdbe57bb30928edc41fdeb0d19a0984d
 Flask-InterfacePubSub,https://github.com/rafaelportugal/Flask-InterfacePubSub,60904ceafed88e25c1504aa0300d37780c09c50b
 flask-ipban,https://github.com/Martlark/flask-ipban,882a25495be55609e5d9a058b8139b78836d64d4
 Flask-JWT-Router,https://github.com/joegasewicz/Flask-JWT-Router,0fb1e256c81409be6f08d8be12f07e5f58b4f914
@@ -442,7 +441,6 @@ kismet-py,https://github.com/autochthe/kismet-py,12c063b1f17d084d978ae8fe8405fd1
 kitsune,https://github.com/aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067
 knack,https://github.com/microsoft/knack,dc7b7d857ce3c11b2a3155b81f2470b3b579e7c9
 knit,https://github.com/dask/knit,934aee7012967453b7343f6e01f16b26aece2aaf
-knit,https://github.com/dask/knit/,934aee7012967453b7343f6e01f16b26aece2aaf
 kool,https://github.com/edasi/kool,efe847a05c1a07af5eddeeeb700fdefcb6c9ced9
 krllint,https://github.com/d4nuu8/krllint,2f9376cdae14c201364d9c31b4c19a8ff2f708d2
 kwalitee,https://github.com/inveniosoftware/kwalitee,9124f8f55b15547fef08c6c43cabced314e70674
@@ -621,7 +619,6 @@ proxipy,https://github.com/sttlr/proxipy,f9b08d8f3fc7dd0089b6c2fbe83d2671dc51472
 proxy.py,https://github.com/abhinavsingh/proxy.py,9b4263777bea7b3e00a1a3546511f2117f210a2b
 psi-collect,https://github.com/UNCG-DAISY/psi-collect,a7840fbb18cb78ce2b8c842c62199d8b9d01cb6a
 psrqpy,https://github.com/mattpitkin/psrqpy,f4e7d685ebb4b3bf086e3f998f68cc3c4e1914fb
-psrqpy,https://github.com/mattpitkin/psrqpy/,f4e7d685ebb4b3bf086e3f998f68cc3c4e1914fb
 ptemcee,https://github.com/willvousden/ptemcee,a411be2e29e39585212c92acea1893f955aa9be8
 pttagger,https://github.com/jun-harashima/pttagger,d26fead72fb28d2e84007b0262457c6bec31f206
 pubtools-pulp,https://github.com/release-engineering/pubtools-pulp,1ecae6811d973d80cbdda41961ba3301359da9dd
@@ -816,7 +813,6 @@ s3path,https://github.com/liormizr/s3path,4ba7ad7f64be2a41139606c50987a95f74a180
 saga,https://github.com/saga-vcs/saga,7beaae8831696ce813aa85620387e416719198db
 samwise,https://github.com/Cloudzero/samwise,3aa79ba20f3a151be3fd691bd5f6f5f250d16334
 sandman,https://github.com/jeffknupp/sandman,253ea4d15cbccd9f0016d66fedd7478614cc0b2f
-sandman,https://github.com/jeffknupp/sandman/,253ea4d15cbccd9f0016d66fedd7478614cc0b2f
 sanic-envconfig,https://github.com/jamesstidard/sanic-envconfig,c68e09def2ce04c7ab91e443680ff64dc2ef61e1
 Santaslist,https://github.com/obihann/Santaslist,e678a70b41047defc42261d0b483fb75677c5c10
 sat-search,https://github.com/sat-utils/sat-search,5f55e6ebcd8870c27924521e136e872c75556a49
@@ -826,7 +822,6 @@ schematics_to_swagger,https://github.com/Alexei-Kornienko/schematics_to_swagger,
 scikit-build,https://github.com/scikit-build/scikit-build,1a25f132ef746e90d41ed165892fd68a44a81403
 scikit-fem,https://github.com/kinnala/scikit-fem,4aa87e15fd05dfbbad2367ef2303f398d5afddcc
 scikit-hep,https://github.com/scikit-hep/scikit-hep,e78234da9e754e380a7d871afb56b20baa73b99b
-scikit-hep,https://github.com/scikit-hep/scikit-hep/,e78234da9e754e380a7d871afb56b20baa73b99b
 scikit-procrustes,https://github.com/melissawm/skprocrustes,05b6fd4fcc6cb0d7b8d1115dc562a0f8f7e227b2
 SCout,https://github.com/holzkohlengrill/SCout,8fd1eca0607b27d6e0c537b2ea1211d23356edff
 scrapbook,https://github.com/nteract/scrapbook,f681427fcc721e303e3d21fb3974b3bfa43d5445
@@ -840,7 +835,6 @@ seccs,https://github.com/netleibi/seccs,927bcbe41d2db80281fff0b4a1cbedcaae0bfaf9
 securenative-python,https://github.com/securenative/securenative-python,0eae99733b7565341487ad32f044be8dc51032cd
 selenium-wire,https://github.com/wkeeling/selenium-wire,f80339bc2da0485fbba4165375c009b90efdb3c2
 serpextract,https://github.com/Parsely/serpextract,aec8f2bd79c66953938569a24b05c693ab70b4ce
-serpextract,https://github.com/Parsely/serpextract/,aec8f2bd79c66953938569a24b05c693ab70b4ce
 service-manager,https://github.com/hmrc/service-manager,e0a9f2a08e139e23d8a1199a2208b4f5a355a0be
 setigen,https://github.com/bbrzycki/setigen,30acd4645896d07c660be2ba00542f64b5c64316
 setuptools-odoo,https://github.com/acsone/setuptools-odoo,f3a0d7132c187a5c5620e6cf3ecae70b90831f7c
@@ -982,7 +976,7 @@ wordoftheday,https://github.com/patrickc-dev/wordoftheday,35439b87e782199813933a
 words-to-regular-expression,https://github.com/radeklat/words-to-regular-expression,6be1a3846f4bc07a2264b72d1e1ee031c605bac7
 wqio,https://github.com/Geosyntec/wqio,8fcd57cc8b8365208eeee0162438307db0ca0dbb
 wsstat,https://github.com/fitblip/wsstat,f7c91eb8765a801ad5e0504ca22ee2ec832cf682
-xenavalkyrie,https://github.com/xenadevel/PyXenaValkyrie/,92b45f1f37a5589cbdb9224a287fa0426d2c8d47
+xenavalkyrie,https://github.com/xenadevel/PyXenaValkyrie,92b45f1f37a5589cbdb9224a287fa0426d2c8d47
 xivapi-python,https://github.com/EltonChou/xivapi-python,040a0f76e0f906b2c1e62bbab6e19bcfe1dfdbcc
 xphyle,https://github.com/jdidion/xphyle,9f66b129130a368611fb2ab0027c6218b1a13a50
 yadll,https://github.com/pchavanne/yadll,6114234a8a25cfda7a596b9a6e75bb121de6f4d2
