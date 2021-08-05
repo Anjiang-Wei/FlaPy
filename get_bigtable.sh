@@ -29,7 +29,7 @@ for proj_dir in $(ls); do
         echo "mising results.tar.xz in ${proj_dir}" >> ${error_file}
         continue
     fi
-    tar -xvzf results.tar.xz
+    tar -xzf results.tar.xz
     xml_file=$(find . -name "*_output1.xml")
     if [ ! "${xml_file}" ]; then
         echo "mising xml file in ${proj_dir}" >> ${error_file}

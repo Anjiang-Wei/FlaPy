@@ -13,13 +13,17 @@ def main(filename):
         full_names = set()
         for test in tests:
             fn = myget(test,"file")
-            cn = myget(test,"classname").replace(fn[:-3].replace('/','.'), '')
+            cn = myget(test,"classname")
             tn = myget(test,"name")
             fullname = ""
             if cn == "":
                 fullname = (fn + "::" + tn).strip()
             else:
-                fullname = (fn + "::" + cn[1:] + "::" + tn).strip()
+                if cn.split('.')[-1].startswith("Test"):
+                    fullname = ('/'.join(cn.split('.')[:-1]) + '.py::' + cn.split('.')[-1] + "::" + tn).strip()
+                else:
+                    fullname = (cn.replace('.','/') + ".py::" + tn).strip()
+
             if fullname in full_names:
                 continue
             full_names.add(fullname)
