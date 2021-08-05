@@ -12,7 +12,14 @@ def main(filename):
         tests = bs_content.find_all("testcase")
         full_names = set()
         for test in tests:
-            fullname = (myget(test,"file") + "::" + myget(test,"classname") + '.' + myget(test,"name")).strip()
+            fn = myget(test,"file")
+            cn = myget(test,"classname").replace(fn[:-3].replace('/','.'), '')
+            tn = myget(test,"name")
+            fullname = ""
+            if cn == "":
+                fullname = (fn + "::" + tn).strip()
+            else:
+                fullname = (fn + "::" + cn[1:] + "::" + tn).strip()
             if fullname in full_names:
                 continue
             full_names.add(fullname)
