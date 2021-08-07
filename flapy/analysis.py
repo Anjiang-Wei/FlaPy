@@ -121,20 +121,26 @@ class FileUtils:
 
         :param copy_path: Path to the copy that should be deleted
         """
+        '''
         if copy_path in cls._copies:
             shutil.rmtree(copy_path)
             cls._copies.remove(copy_path)
         else:
             raise Exception(f"Cannot delete copy {copy_path} as it does not exist!")
+        '''
+        pass
 
     @classmethod
     def delete_all_copies(cls) -> None:
+        '''
         """Deletes all existing copies."""
         for copy in cls._copies:
             try:
                 cls.delete_copy(copy)
             except FileNotFoundError:
                 pass
+        '''
+        pass
 
 
 class VirtualEnvironment:
@@ -155,7 +161,7 @@ class VirtualEnvironment:
 
     def cleanup(self) -> None:
         """Cleans up the virtual environment."""
-        shutil.rmtree(self._env_dir)
+        # shutil.rmtree(self._env_dir)
 
     @property
     def env_dir(self) -> Any:
@@ -234,7 +240,7 @@ def virtualenv(
     """
     venv = VirtualEnvironment(env_name, tmp_dir)
     yield venv
-    venv.cleanup()
+    # venv.cleanup()
 
 
 class RandomOrderBucket(Enum):
@@ -428,6 +434,7 @@ class PyTestRunner(AbstractRunner):
 
             if self._xml_coverage_file is not None:
                 command += f" --cov-report xml:{self._xml_coverage_file}"
+            command = "echo 'good'"
 
             out, err = env.run_commands([command])
             os.chdir(old_dir)
@@ -758,11 +765,14 @@ class FlakyAnalyser:
 
     def _cleanup(self):
         """Removes all files generated during the analysis."""
+        '''
         for file in self._generated_files:
             if os.path.exists(file):
                 os.remove(file)
             else:
                 self._logger.warning("Could not find file %s while cleaning up.", file)
+        '''
+        pass
 
     @staticmethod
     def _create_parser() -> argparse.ArgumentParser:
