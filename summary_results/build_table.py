@@ -17,11 +17,11 @@ with open("NI-status.csv", "r") as f:
         line = lines[i].strip()
         slug, sha, test, victim, link, status = line.split(",")
         if sha != cur_sha or i == len(lines) - 1:
-            cur_projectid += 1
-            cur_sha = sha
             if i != 1:
                 info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
                 cur_info = [0, 0, 0, 0, 0]
+            cur_projectid += 1
+            cur_sha = sha
         cur_info[0] += 1
         if "N/A" in status:
             cur_info[1] += 1
