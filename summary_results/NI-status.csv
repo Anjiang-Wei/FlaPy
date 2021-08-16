@@ -6,7 +6,7 @@ git@github.com:Burnysc2/python-sc2,78d2ebe5c87aa9abc1e8a505f095ccd5e9dec358,test
 git@github.com:ConSou/devtracker,ea892d6d48aa5d4627b429469b59ae3f0ce7f10f,devtracker/test_devtracker.py::test_end_time_total,no,,clean
 git@github.com:ConSou/devtracker,ea892d6d48aa5d4627b429469b59ae3f0ce7f10f,devtracker/test_devtracker.py::test_remove,no,,clean
 git@github.com:DanielSank/observed,d99fb99ff2a470a86efb2763685e8e2c021e799f,observed_test.py::TestBasics::test_discard,no,https://github.com/DanielSank/observed/pull/24,Accepted
-git@github.com:DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_connection,no,https://github.com/jkehler/redisqueue/pull/3,clean
+git@github.com:DevKeh/redisqueue,feac4dfc30837e0ab1a55a8479443ea74b2793f2,tests/test_redisqueue.py::test_mock_queue_connection,no,https://github.com/jkehler/redisqueue/pull/3,Opened
 git@github.com:FoteinosMerg/pymerkle,5318009e04b2ae44e194b8435ef181aa67ab8b9a,tests/tree/test_structure.py::test_1_leaves,no,,OD
 git@github.com:LeBarbouze/tunacell,837d57e1e6caeddf2e6bcdd2db2986fb456dd605,tunacell/tests/test_filters.py::test_unroll,no,,pollution
 git@github.com:MiCHiLU/fanstatic-tools,c075a2195c8138d103b72ef8445ef08f2a865984,fanstatic/test_core.py::test_register_inclusion_renderer,no,https://github.com/michilu/fanstatic-tools/pull/1,Opened
@@ -84,17 +84,17 @@ git@github.com:kenkundert/engfmt,b908ef69aa7941e561019e24f969703f3234753b,test_t
 git@github.com:ktnrg45/pyps4-2ndscreen,457dc9c3f04017569d52bae7390ea2fc54e96ce5,tests/test_media_art.py::test_result_item_missing_data,no,,
 git@github.com:ktnrg45/pyps4-homeassistant,457dc9c3f04017569d52bae7390ea2fc54e96ce5,tests/test_media_art.py::test_result_item_missing_data,no,,
 git@github.com:mahmoud/lithoxyl,9961553a065a1ad8bb7a2407fe74f2cfd6c79a20,lithoxyl/tests/test_stats.py::test_momentacc_norm,yes,,randomseed
-git@github.com:metachris/logzero,b5d49fc2b118c370994c4ae5360d7c246d43ddc8,tests/test_logzero.py::test_write_to_logfile_and_stderr,yes,,
+git@github.com:metachris/logzero,b5d49fc2b118c370994c4ae5360d7c246d43ddc8,tests/test_logzero.py::test_write_to_logfile_and_stderr,yes,,capsys
 git@github.com:miLibris/flask-rest-jsonapi,b44bc08b11213d49fadae873650d3555889052ec,tests/test_sqlalchemy_data_layer.py::test_api,no,,
 git@github.com:miLibris/flask-rest-jsonapi,b44bc08b11213d49fadae873650d3555889052ec,tests/test_sqlalchemy_data_layer.py::test_api_resources,no,,
-git@github.com:michaelpb/stowage,7c619be755b9b73fd202367bcf9014472f318834,test/test_stowage.py::TestPathGenerators::test_partially_needed_symlink_walk,yes,,
-git@github.com:mozilla/PyPOM,9cb84df9d27b428b4e7423d1bbe6502e92990154,tests/test_driver.py::test_register_driver,yes,,
+git@github.com:michaelpb/stowage,7c619be755b9b73fd202367bcf9014472f318834,test/test_stowage.py::TestPathGenerators::test_partially_needed_symlink_walk,yes,https://github.com/michaelpb/stowage/pull/1,Opened
+git@github.com:mozilla/PyPOM,9cb84df9d27b428b4e7423d1bbe6502e92990154,tests/test_driver.py::test_register_driver,yes,,pollution
 git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_collide.py::test_avoid_collision,no,,
-git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_noclass.py::test_main,yes,https://github.com/mtik00/yamicache/pull/10,Opened
+git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_noclass.py::test_main,yes,https://github.com/mtik00/yamicache/pull/10,Rejected
 git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_serialization.py::test_serialization,no,,
 git@github.com:nficano/pytube,b610f399722e001e99ee88d3673c148d903c5948,tests/test_streams.py::test_on_progress_hook,no,,
 git@github.com:omersaraf/IOCynergy,1821423680f741d8ca06bcc6a02c8b21156f9ba0,cynergy/tests/test_life_cycle.py::test_multi,no,https://github.com/omersaraf/IOCynergy/pull/3,Opened
-git@github.com:oskar456/dzonegit,8f952086aa41aee4ebb7432926ed8c6a9211ac9f,test_dzonegit.py::test_get_head,yes,,
+git@github.com:oskar456/dzonegit,8f952086aa41aee4ebb7432926ed8c6a9211ac9f,test_dzonegit.py::test_get_head,yes,https://github.com/oskar456/dzonegit/pull/19,Opened
 git@github.com:pedrovanzella/do-the-webp,09b372de1c4f1d73d9284517c57c0d869f55144b,tests/test_compressor.py::test_compress_dir,no,,
 git@github.com:politeauthority/docker-pretty-ps,2fcc9db4e391df2b96ccc2e967b41b6263fdcc2d,tests/test_dockerprettyps.py::TestDockerPrettyPs::test_give_json,no,,
 git@github.com:prymitive/upaas-common,7a7d9ffb385151092c637c3ef500a79623c005ae,tests/test_storage_local.py::test_dir_exists,no,,N/A; archived
@@ -110,13 +110,12 @@ git@github.com:samuelduchesne/pyTrnsysType,6cf552e4ccd66f7b728e84654e580befe2061
 git@github.com:samuelduchesne/pyTrnsysType,6cf552e4ccd66f7b728e84654e580befe2061114,tests/test_xml.py::TestTrnsysModel::test_cycles_2,no,,
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/EPlusInterfaceFunctions_tests/test_iddgroups.py::test_group2commlst,no,,
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_examples.py::test_addobject,no,https://github.com/santoshphilip/eppy/pull/355,Opened
-git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_examples.py::test_pythonic,yes,,
+git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_examples.py::test_pythonic,yes,https://github.com/santoshphilip/eppy/pull/356,Opened
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_idfreader.py::test_convertallfields,no,,
 git@github.com:seanbreckenridge/keepassxc-pwned,aead83c1749b62006a28526905d8fee5cd2ae902,tests/test_user_input.py::test_user_input_password_not_found,no,,
 git@github.com:seanpar203/event-bus,5353d6472926a299ab4f3a8c33114a725d5b7639,tests/test_event_emit.py::test_event_emit,no,https://github.com/seanpar203/event-bus/pull/12,Opened
 git@github.com:seanpar203/event-bus,5353d6472926a299ab4f3a8c33114a725d5b7639,tests/test_subscribed_removal.py::test_suscribed_event_was_removed,no,,
-git@github.com:sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,yes,,
-git@github.com:solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_CategoricalVariableImputer,yes,,
+git@github.com:solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_CategoricalVariableImputer,yes,,N/A; developer fixed
 git@github.com:solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_RandomSampleImputer,no,,
 git@github.com:spulec/freezegun,b46da782a7a051081fd51577749cfc0074db0cc6,tests/test_class_import.py::test_import_after_start,yes,https://github.com/spulec/freezegun/pull/407,Opened
 git@github.com:stateya/m3u-dump,1ec3eeedb4c650af76c6c66859375ca2d2a6e1bc,tests/test_m3u_dump.py::test_command_line_already_playlist,no,,
@@ -139,4 +138,4 @@ git@github.com:tukiains/cloudnetpy,26f2607b890630146469cfa410fce99438ceee3f,test
 git@github.com:vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tests/test_project.py::testProjectNewCustom,yes,,N/A; developer fixed
 git@github.com:vkbo/novelWriter,559f2e53e410f9793ab08c2ef7ed308f75c92985,tests/test_project.py::testProjectNewMinimal,yes,,N/A; developer fixed
 git@github.com:wilfredinni/coo,da9e75d46ed65599cd2223b029ac30c08496a80b,tests/test_coo.py::test_schedule_time_zone_media,no,https://github.com/wilfredinni/coo/pull/1,Accepted
-git@github.com:ylaizet/alphanum_code,fb5cd313dc41f046aac01ff01d6e1561d17894a6,tests/test_alphanum_code.py::test_init_code,yes,,
+git@github.com:ylaizet/alphanum_code,fb5cd313dc41f046aac01ff01d6e1561d17894a6,tests/test_alphanum_code.py::test_init_code,yes,,OD
