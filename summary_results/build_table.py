@@ -16,7 +16,7 @@ with open("NI-status.csv", "r") as f:
     for i in range(1, len(lines)):
         line = lines[i].strip()
         slug, sha, test, victim, link, status = line.split(",")
-        if sha != cur_sha or i == len(lines) - 1:
+        if sha != cur_sha:
             if i != 1:
                 info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
                 cur_info = [0, 0, 0, 0, 0]
@@ -31,6 +31,7 @@ with open("NI-status.csv", "r") as f:
                 cur_info[3] += 1
             if "Reject" in status:
                 cur_info[4] += 1
+    info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
     print("PID,Detected,N/A,Submitted,Accepted,Rejected")
     for each in info:
         print(",".join(each))
