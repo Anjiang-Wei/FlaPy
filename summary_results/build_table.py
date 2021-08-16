@@ -33,6 +33,10 @@ with open("NI-status.csv", "r") as f:
                 cur_info[4] += 1
     info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
     print("PID,Detected,N/A,Submitted,Accepted,Rejected")
+    total = [0, 0, 0, 0, 0]
     for each in info:
         print(",".join(each))
-    
+        for i in range(1, len(each)):
+            total[i-1] += int(each[i])
+            
+    print("Total,"+ ",".join(map(str, total)))
