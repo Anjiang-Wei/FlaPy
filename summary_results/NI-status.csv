@@ -1,6 +1,5 @@
 slug,sha,test,Victim?(from Gruber et al.),PRLink,PRStatus
 git@github.com:AguaClara/aguaclara,9ee3d1d007bc984b73b19520d48954b6d81feecc,tests/core/test_cache.py::test_ac_cache,no,,clean
-git@github.com:AguaClara/aguaclara_design,9ee3d1d007bc984b73b19520d48954b6d81feecc,tests/core/test_cache.py::test_ac_cache,no,,clean
 git@github.com:AshtonUPS/Py-MI-PS,2d22327c75bac1b58a4804a61e7a703ecc5ba978,src/PyMIPS/tests/register_test.py::test_setting_to_num,no,https://github.com/AshtonUPS/Py-MI-PS/pull/22,Opened
 git@github.com:Burnysc2/python-sc2,78d2ebe5c87aa9abc1e8a505f095ccd5e9dec358,test/test_pickled_data.py::test_bot_ai,no,https://github.com/BurnySc2/python-sc2/pull/109,Opened
 git@github.com:ConSou/devtracker,ea892d6d48aa5d4627b429469b59ae3f0ce7f10f,devtracker/test_devtracker.py::test_end_time_total,no,,clean
@@ -80,9 +79,8 @@ git@github.com:june3474/skelpy,0e64eccdc5211dbec664e7d3f9d07c6020651b63,tests/te
 git@github.com:juntossomosmais/regex4ocr,9f96e9c6fe6ffc3e1452b23103fdfa6a0f1dcede,tests/integration/test_type_casting.py::test_validate_types_no_removal,no,,
 git@github.com:kellylab/Fireworks,ff027cd8d1b8ce5eec6a37d786e7de675d8c0849,fireworks/core/message_test.py::test_Message_set_get,no,,
 git@github.com:kenkundert/engfmt,b908ef69aa7941e561019e24f969703f3234753b,test_quantity.py::test_number_recognition,no,,
-git@github.com:kenkundert/engfmt,b908ef69aa7941e561019e24f969703f3234753b,test_text_processing.py::test_text_processing,no,,
-git@github.com:ktnrg45/pyps4-2ndscreen,457dc9c3f04017569d52bae7390ea2fc54e96ce5,tests/test_media_art.py::test_result_item_missing_data,no,,
-git@github.com:ktnrg45/pyps4-homeassistant,457dc9c3f04017569d52bae7390ea2fc54e96ce5,tests/test_media_art.py::test_result_item_missing_data,no,,
+git@github.com:kenkundert/engfmt,b908ef69aa7941e561019e24f969703f3234753b,test_text_processing.py::test_text_processing,no,https://github.com/KenKundert/engfmt/pull/2,Opened
+git@github.com:ktnrg45/pyps4-2ndscreen,457dc9c3f04017569d52bae7390ea2fc54e96ce5,tests/test_media_art.py::test_result_item_missing_data,no,,N/A
 git@github.com:mahmoud/lithoxyl,9961553a065a1ad8bb7a2407fe74f2cfd6c79a20,lithoxyl/tests/test_stats.py::test_momentacc_norm,yes,,randomseed
 git@github.com:metachris/logzero,b5d49fc2b118c370994c4ae5360d7c246d43ddc8,tests/test_logzero.py::test_write_to_logfile_and_stderr,yes,,capsys
 git@github.com:miLibris/flask-rest-jsonapi,b44bc08b11213d49fadae873650d3555889052ec,tests/test_sqlalchemy_data_layer.py::test_api,no,,
