@@ -10,8 +10,8 @@ with open("NI-status.csv", "r") as f:
     alls = len(lines) - 1
     cur_projectid = 0
     cur_sha = 0
-    # detected, na, submitted, accepted, rejected
-    cur_info = [0, 0, 0, 0, 0]
+    # detected, na, submitted, accepted, rejected, inspected
+    cur_info = [0, 0, 0, 0, 0, 0]
     info = []
     for i in range(1, len(lines)):
         line = lines[i].strip()
@@ -19,7 +19,7 @@ with open("NI-status.csv", "r") as f:
         if sha != cur_sha:
             if i != 1:
                 info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
-                cur_info = [0, 0, 0, 0, 0]
+                cur_info = [0, 0, 0, 0, 0, 0]
             cur_projectid += 1
             cur_sha = sha
         cur_info[0] += 1
@@ -31,9 +31,11 @@ with open("NI-status.csv", "r") as f:
                 cur_info[3] += 1
             if "Reject" in status:
                 cur_info[4] += 1
+        if len(status) != 0:
+            cur_info[5] += 1
     info.append(["M" + str(cur_projectid)] + list(map(str, cur_info)))
-    print("PID,Detected,N/A,Submitted,Accepted,Rejected")
-    total = [0, 0, 0, 0, 0]
+    print("PID,Detected,N/A,Submitted,Accepted,Rejected,Inspected")
+    total = [0, 0, 0, 0, 0, 0]
     for each in info:
         print(",".join(each))
         for i in range(1, len(each)):
