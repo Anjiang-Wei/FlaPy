@@ -40,12 +40,12 @@ git@github.com:chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,fs/t
 git@github.com:chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,fs/tests/test_rename.py::test_rename_file,no,,
 git@github.com:chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,fs/tests/test_touch.py::test_touch_on_new_file,no,,
 git@github.com:chie8842/expstock,28b7ece83fa601efd2b6c4b8b7bdd1a3b9ebc1df,expstock/test_expstock.py::test_append_param,no,,
-git@github.com:crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_ibu_aut,no,,
-git@github.com:daknuett/ljson,1d3dc13001d9d2f61bcfbf9d5c5b16d44fb8076e,test/test_ljson_mem.py::test_unique_check,no,,
-git@github.com:davidhalter/parso,6ae0efa415c9790000dba70f87e6ece20d6a4101,test/test_cache.py::test_permission_error,no,,
-git@github.com:demisto/demisto-sdk,925303e5c54fc3dda985ef19b6d56a956d189f69,demisto_sdk/commands/secrets/tests/secrets_test.py::TestSecrets::test_two_files_with_same_name,no,,
-git@github.com:den4uk/jsonextra,e82c2e873b4d9c8105fd4e5ed43e7fae4fe6bc2c,tests/test_jsonextra.py::test_disable_rex,no,,
-git@github.com:drtexx/volux,c41339aceeab4295967ea88b2edd05d0d456b2ce,tests/test_operator.py::Test_operator::test_add_module,no,,
+git@github.com:crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_ibu_aut,no,https://github.com/crumpstrr33/Utter-More/pull/1,Opened
+git@github.com:daknuett/ljson,1d3dc13001d9d2f61bcfbf9d5c5b16d44fb8076e,test/test_ljson_mem.py::test_unique_check,no,https://github.com/daknuett/ljson/pull/4,Opened
+git@github.com:davidhalter/parso,6ae0efa415c9790000dba70f87e6ece20d6a4101,test/test_cache.py::test_permission_error,no,https://github.com/davidhalter/parso/pull/195,Opened
+git@github.com:demisto/demisto-sdk,925303e5c54fc3dda985ef19b6d56a956d189f69,demisto_sdk/commands/secrets/tests/secrets_test.py::TestSecrets::test_two_files_with_same_name,no,https://github.com/demisto/demisto-sdk/pull/1574,Opened
+git@github.com:den4uk/jsonextra,e82c2e873b4d9c8105fd4e5ed43e7fae4fe6bc2c,tests/test_jsonextra.py::test_disable_rex,no,https://github.com/den4uk/jsonextra/pull/9,Opened
+git@github.com:drtexx/volux,c41339aceeab4295967ea88b2edd05d0d456b2ce,tests/test_operator.py::Test_operator::test_add_module,no,https://github.com/DrTexx/Volux/pull/37,Opened
 git@github.com:drtexx/volux,c41339aceeab4295967ea88b2edd05d0d456b2ce,tests/test_operator.py::Test_operator::test_remove_missing_module,no,https://github.com/DrTexx/Volux/pull/36,Accepted
 git@github.com:earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_set_dir_route,no,,
 git@github.com:epsagon/epsagon-python,b985d8412848f9a0c98e2f15ae0967a6dba3517f,tests/wrappers/test_python_function.py::test_python_wrapper_python_runner_factory_failed,yes,https://github.com/epsagon/epsagon-python/pull/378,Accepted
@@ -60,8 +60,8 @@ git@github.com:gradam/lol_api,33ea96f5eeac581737949b733d8af1c4436e94b9,tests/tes
 git@github.com:gradam/lol_api,33ea96f5eeac581737949b733d8af1c4436e94b9,tests/test_daemon.py::TestDaemon::test_short,yes,,N/A; archived
 git@github.com:gwpy/gwosc,06b56ce506fda3af4857c8a1aae7bb60fb1925e9,gwosc/tests/test_datasets.py::test_dataset_type_local,no,,mock
 git@github.com:hefnawi/json-storage-manager,c7521fc4a576cf23a8c2454106bed6fb8c951b8d,tests/test_main.py::test_set_item,yes,,OD
-git@github.com:hypoport/python-aws-dataclasses,30bfe90457a83957d10ec18fe7d61439b5b74280,tests/test_sns_event.py::test_can_handle_missing_fields,no,,
-git@github.com:irmen/Tale,a2a26443465ab6978b32d9253e833471500e7b68,tests/test_commands.py::TestCommandDecorators::test_cmd_decorator,no,,
+git@github.com:hypoport/python-aws-dataclasses,30bfe90457a83957d10ec18fe7d61439b5b74280,tests/test_sns_event.py::test_can_handle_missing_fields,no,https://github.com/hypoport/python-aws-dataclasses/pull/13,Opened
+git@github.com:irmen/Tale,a2a26443465ab6978b32d9253e833471500e7b68,tests/test_commands.py::TestCommandDecorators::test_cmd_decorator,no,,N/A; archived
 git@github.com:irmen/Tale,a2a26443465ab6978b32d9253e833471500e7b68,tests/test_commands.py::TestCommandDecorators::test_no_duplicates,no,,
 git@github.com:jnoortheen/dynamic-conf,42257f06a66765ac4f5de1c6a4637f4db779c5ab,tests/test_conf.py::test_singleton,no,,clean
 git@github.com:joblib/joblib,440b1b899d357a9db6526ca87051a77963b33631,joblib/test/test_memory.py::test_argument_change,no,,clean
