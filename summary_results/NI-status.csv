@@ -15,21 +15,21 @@ git@github.com:Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/tes
 git@github.com:Prodesire/pydu,4a1c2f15f7274d5079fb08b02ab1dbe08c0cefef,tests/test_system.py::TestWhich::test_cmd_path,no,,
 git@github.com:Qordobacode/fitbert,4b0f2f3f47e5a3fea0ee59d65f71c44b830a93d9,fitbert/tests.py::test_delemmatizes_lemmas,no,https://github.com/Qordobacode/fitbert/pull/23,Opened
 git@github.com:Qordobacode/fitbert,4b0f2f3f47e5a3fea0ee59d65f71c44b830a93d9,fitbert/tests.py::test_delemmatizes_non_lemmas,no,https://github.com/Qordobacode/fitbert/pull/233,Opened
-git@github.com:Rickecr/PyGraph,e81c3a0f543f5bfcda1a603c6dcecde13d582c57,__tests__/test_simple_graph.py::TestSimpleGraph::test_add_vertex,no,,
-git@github.com:Rickecr/PyGraph,e81c3a0f543f5bfcda1a603c6dcecde13d582c57,__tests__/test_simple_graph.py::TestSimpleGraph::test_num_vertex,no,,
+git@github.com:Rickecr/PyGraph,e81c3a0f543f5bfcda1a603c6dcecde13d582c57,__tests__/test_simple_graph.py::TestSimpleGraph::test_add_vertex,no,https://github.com/richecr/PyGraph/pull/94,Opened
+git@github.com:Rickecr/PyGraph,e81c3a0f543f5bfcda1a603c6dcecde13d582c57,__tests__/test_simple_graph.py::TestSimpleGraph::test_num_vertex,no,https://github.com/richecr/PyGraph/pull/94,Opened
 git@github.com:Rickecr/PyGraph,e81c3a0f543f5bfcda1a603c6dcecde13d582c57,__tests__/test_simple_graph.py::TestSimpleGraph::test_vertex_neighbors,no,,
 git@github.com:SurrealAI/symphony,747b87eee20d48032b4a554950687d0b1209fd24,test/test_config.py::TestConfig::test_register,no,,N/A; archived
 git@github.com:SuryaSankar/flask-sqlalchemy-booster,e43980e29a18e725d791b87ce1b677470bbaf22c,tests/test_view_boosters/test_todo_list_api/test_api_endpoints.py::test_multi_users_creation,no,https://github.com/SuryaSankar/flask-sqlalchemy-booster/pull/18,Opened
 git@github.com:SuryaSankar/flask-sqlalchemy-booster,e43980e29a18e725d791b87ce1b677470bbaf22c,tests/test_view_boosters/test_todo_list_api/test_api_endpoints.py::test_user_creation,no,https://github.com/SuryaSankar/flask-sqlalchemy-booster/pull/18,Opened
 git@github.com:SuryaSankar/flask-sqlalchemy-booster,e43980e29a18e725d791b87ce1b677470bbaf22c,tests/test_view_boosters/test_todo_list_api/test_relationship_updates.py::test_list_relationship_new_item,no,https://github.com/SuryaSankar/flask-sqlalchemy-booster/pull/18,Opened
 git@github.com:Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb57,tests/unittests/test_00_initialization.py::test_11_log_file,no,https://github.com/Teamworksapp/pydbvolve/pull/14,Opened
-git@github.com:Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_get_broker_list3,no,,
+git@github.com:Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_get_broker_list3,no,,mock
 git@github.com:Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_wait_for_stable_cluster_success,no,,
 git@github.com:Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_location.py::test_zero,no,,
 git@github.com:abeelen/nikamap,d39c488c89bf5d90fffe3c05580fc13551522ee5,nikamap/tests/test_nikamap.py::test_nikamap_write,no,,
-git@github.com:agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,no,,
+git@github.com:agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,no,https://github.com/agile4you/bottle-neck/pull/3,Opened
 git@github.com:airbrake/pybrake,9bf82941d8bf521055b258cea91596a11e4eb81f,pybrake/test_celery_integration.py::test_celery_integration,no,https://github.com/airbrake/pybrake/pull/163,Accepted
-git@github.com:aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain,no,,
+git@github.com:aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain,no,,pollution
 git@github.com:bazaar-projects/docopt-ng,bbed40a2335686d2e14ac0e6c3188374dc4784da,tests/test_docopt_ng.py::test_docopt_ng_more_magic_global_arguments_and_dot_access,no,https://github.com/jazzband/docopt-ng/pull/20,Opened
 git@github.com:benjaminp/six,c0be8815d13df45b6ae471c4c436cce8c192245d,test_six.py::test_lazy,no,,clean
 git@github.com:bpepple/metron-tagger,2be176293218fa101dd84c95c72b8ae646b2731a,tests/test_taggerlib_filesorter.py::test_sort_comic,no,https://github.com/bpepple/metron-tagger/pull/46,Accepted
@@ -47,14 +47,14 @@ git@github.com:demisto/demisto-sdk,925303e5c54fc3dda985ef19b6d56a956d189f69,demi
 git@github.com:den4uk/jsonextra,e82c2e873b4d9c8105fd4e5ed43e7fae4fe6bc2c,tests/test_jsonextra.py::test_disable_rex,no,https://github.com/den4uk/jsonextra/pull/9,Opened
 git@github.com:drtexx/volux,c41339aceeab4295967ea88b2edd05d0d456b2ce,tests/test_operator.py::Test_operator::test_add_module,no,https://github.com/DrTexx/Volux/pull/37,Opened
 git@github.com:drtexx/volux,c41339aceeab4295967ea88b2edd05d0d456b2ce,tests/test_operator.py::Test_operator::test_remove_missing_module,no,https://github.com/DrTexx/Volux/pull/36,Accepted
-git@github.com:earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_set_dir_route,no,,
+git@github.com:earthreader/libearth,71d2f3246eb0b6a3668a64e2242616d20b1d7dcd,tests/stage_test.py::test_set_dir_route,no,,pollution
 git@github.com:epsagon/epsagon-python,b985d8412848f9a0c98e2f15ae0967a6dba3517f,tests/wrappers/test_python_function.py::test_python_wrapper_python_runner_factory_failed,yes,https://github.com/epsagon/epsagon-python/pull/378,Accepted
 git@github.com:eth-cscs/reframe,576eb3f1dcc015d1e6d7a10602c748d4f810da68,unittests/test_config.py::test_convert_old_config,no,,pollution
 git@github.com:fifman/tangle,a36cff74d7f09bf8f24a91929b844ea1be7b1bcd,tests/test_context.py::test_aspect,no,,clean
 git@github.com:filestack/filestack-python,1bd6749735e5c78dde767e0685ddfdf0cd7423e2,tests/intelligent_ingestion_test.py::test_upload_part_with_resize,yes,,pollution
-git@github.com:gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/example/test_example.py::TestClass::test_simple_example,yes,,
+git@github.com:gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/example/test_example.py::TestClass::test_simple_example,yes,,N/A: unable to run test
 git@github.com:gdoumenc/coworks,c574654a1e3d1cd4ad56b6f5912631230c37fdf3,tests/src/cws/test_scons.py::TestClass::test_zip,no,,
-git@github.com:giganticode/dataprep,bb1d3731a39d221f2a037aaadc747a29a5e76c8d,tests/infrastructure/test_bperegistry.py::test_none,no,,
+git@github.com:giganticode/dataprep,bb1d3731a39d221f2a037aaadc747a29a5e76c8d,tests/infrastructure/test_bperegistry.py::test_none,no,,clean
 git@github.com:goodmami/penman,e83cf6d006724d72a3e19a955aad94412da912b7,tests/test_layout.py::test_rearrange,yes,,randomseed
 git@github.com:gradam/lol_api,33ea96f5eeac581737949b733d8af1c4436e94b9,tests/test_daemon.py::TestDaemon::test_different_api_key,no,,N/A; archived
 git@github.com:gradam/lol_api,33ea96f5eeac581737949b733d8af1c4436e94b9,tests/test_daemon.py::TestDaemon::test_short,yes,,N/A; archived
@@ -89,7 +89,7 @@ git@github.com:mozilla/PyPOM,9cb84df9d27b428b4e7423d1bbe6502e92990154,tests/test
 git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_collide.py::test_avoid_collision,no,,
 git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_noclass.py::test_main,yes,https://github.com/mtik00/yamicache/pull/10,Accepted
 git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/test_serialization.py::test_serialization,no,,
-git@github.com:nficano/pytube,b610f399722e001e99ee88d3673c148d903c5948,tests/test_streams.py::test_on_progress_hook,no,,
+git@github.com:nficano/pytube,b610f399722e001e99ee88d3673c148d903c5948,tests/test_streams.py::test_on_progress_hook,no,,mock
 git@github.com:omersaraf/IOCynergy,1821423680f741d8ca06bcc6a02c8b21156f9ba0,cynergy/tests/test_life_cycle.py::test_multi,no,https://github.com/omersaraf/IOCynergy/pull/3,Opened
 git@github.com:oskar456/dzonegit,8f952086aa41aee4ebb7432926ed8c6a9211ac9f,test_dzonegit.py::test_get_head,yes,https://github.com/oskar456/dzonegit/pull/19,Accepted
 git@github.com:pedrovanzella/do-the-webp,09b372de1c4f1d73d9284517c57c0d869f55144b,tests/test_compressor.py::test_compress_dir,no,,
@@ -115,7 +115,7 @@ git@github.com:seanpar203/event-bus,5353d6472926a299ab4f3a8c33114a725d5b7639,tes
 git@github.com:sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,yes,,clean
 git@github.com:solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_CategoricalVariableImputer,yes,,N/A; developer fixed
 git@github.com:solegalli/feature_engine,ba4d7050b3923d620c1773b66cd4c51ed24498dd,tests/test_missing_data_imputer.py::test_RandomSampleImputer,no,,N/A; developer fixed
-git@github.com:spulec/freezegun,b46da782a7a051081fd51577749cfc0074db0cc6,tests/test_class_import.py::test_import_after_start,yes,https://github.com/spulec/freezegun/pull/407,Opened
+git@github.com:spulec/freezegun,b46da782a7a051081fd51577749cfc0074db0cc6,tests/test_class_import.py::test_import_after_start,yes,https://github.com/spulec/freezegun/pull/407,Accepted
 git@github.com:stateya/m3u-dump,1ec3eeedb4c650af76c6c66859375ca2d2a6e1bc,tests/test_m3u_dump.py::test_command_line_already_playlist,no,https://github.com/stateya/m3u-dump/pull/2,Opened
 git@github.com:stfc/fparser,4be91d2e1078fa5588e84a3299131f297afba675,src/fparser/one/tests/test_parsefortran.py::test_log_cache,no,https://github.com/stfc/fparser/pull/299,Accepted
 git@github.com:stfc/fparser,4be91d2e1078fa5588e84a3299131f297afba675,src/fparser/one/tests/test_parsefortran.py::test_log_empty,no,https://github.com/stfc/fparser/pull/300,Opened
@@ -124,7 +124,7 @@ git@github.com:sushobhit27/multiindex,b631e60bd47558eca9067a0dc87f0e713cddc6f2,m
 git@github.com:sushobhit27/multiindex,b631e60bd47558eca9067a0dc87f0e713cddc6f2,multiindex/tests/test_multiindex.py::test_modify,no,https://github.com/sushobhit27/multiindex/pull/2,Opened
 git@github.com:sushobhit27/multiindex,b631e60bd47558eca9067a0dc87f0e713cddc6f2,multiindex/tests/test_multiindex_hashed_non_unique.py::test_modify,no,,
 git@github.com:sushobhit27/multiindex,b631e60bd47558eca9067a0dc87f0e713cddc6f2,multiindex/tests/test_multiindex_hashed_non_unique.py::test_remove,no,,
-git@github.com:teamhide/pythondi,913e6a60fc5d02c3db385ad322f970ecec36969b,tests/test_configure.py::test_configure,yes,https://github.com/teamhide/pythondi/pull/23,Opened
+git@github.com:teamhide/pythondi,913e6a60fc5d02c3db385ad322f970ecec36969b,tests/test_configure.py::test_configure,yes,https://github.com/teamhide/pythondi/pull/23,Accepted
 git@github.com:thundra-io/thundra-lambda-agent-python,fcd1c2b0b309721d89bd35511bd6645ebd62a5bc,tests/plugins/log/test_log_plugin.py::test_log_plugin_with_initialization,yes,https://github.com/thundra-io/thundra-agent-python/pull/169,Accepted
 git@github.com:thundra-io/thundra-lambda-agent-python,fcd1c2b0b309721d89bd35511bd6645ebd62a5bc,tests/plugins/trace/test_traceable.py::test_trace_args,yes,,
 git@github.com:thundra-io/thundra-lambda-agent-python,fcd1c2b0b309721d89bd35511bd6645ebd62a5bc,tests/plugins/trace/test_traceable.py::test_trace_error,yes,,
