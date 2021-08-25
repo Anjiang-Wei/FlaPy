@@ -25,8 +25,8 @@ git@github.com:SuryaSankar/flask-sqlalchemy-booster,e43980e29a18e725d791b87ce1b6
 git@github.com:Teamworksapp/pydbvolve,e18bb8cf98997c52de0cf30a8e106c480ba0bb57,tests/unittests/test_00_initialization.py::test_11_log_file,no,https://github.com/Teamworksapp/pydbvolve/pull/14,Opened
 git@github.com:Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_get_broker_list3,no,,mock
 git@github.com:Yelp/kafka-utils,bde091515d1dcdd56b9272a3ab01b54742a60253,tests/kafka_rolling_restart/test_main.py::test_wait_for_stable_cluster_success,no,,
-git@github.com:Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_location.py::test_zero,no,,
-git@github.com:abeelen/nikamap,d39c488c89bf5d90fffe3c05580fc13551522ee5,nikamap/tests/test_nikamap.py::test_nikamap_write,no,,
+git@github.com:Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_location.py::test_zero,no,https://github.com/sturmianseq/wellpathpy/pull/1,Opened
+git@github.com:abeelen/nikamap,d39c488c89bf5d90fffe3c05580fc13551522ee5,nikamap/tests/test_nikamap.py::test_nikamap_write,no,https://github.com/abeelen/nikamap/pull/2,Opened
 git@github.com:agile4you/bottle-neck.git,ebc670a4b178255473d68e9b4122ba04e38f4810,test/test_routing.py::test_router_register_handler_fn_pass,no,https://github.com/agile4you/bottle-neck/pull/3,Opened
 git@github.com:airbrake/pybrake,9bf82941d8bf521055b258cea91596a11e4eb81f,pybrake/test_celery_integration.py::test_celery_integration,no,https://github.com/airbrake/pybrake/pull/163,Accepted
 git@github.com:aluttik/kitsune,43824cccf46f433a71b30a7febc0e3500b831067,tests/test_kitsune.py::test_kitsune_printer_plain,no,,pollution
@@ -41,7 +41,7 @@ git@github.com:chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,fs/t
 git@github.com:chaosmail/python-fs,2567922ced9387e327e65f3244caff3b7af35684,fs/tests/test_touch.py::test_touch_on_new_file,no,https://github.com/chaosmail/python-fs/pull/9,Opened
 git@github.com:chie8842/expstock,28b7ece83fa601efd2b6c4b8b7bdd1a3b9ebc1df,expstock/test_expstock.py::test_append_param,no,,clean
 git@github.com:crumpstrr33/Utter-More,418cf5f5ef337700bf0897e746eff8bb275e6da6,test/test_utter_more.py::test_ibu_aut,no,https://github.com/crumpstrr33/Utter-More/pull/1,Opened
-git@github.com:daknuett/ljson,1d3dc13001d9d2f61bcfbf9d5c5b16d44fb8076e,test/test_ljson_mem.py::test_unique_check,no,https://github.com/daknuett/ljson/pull/4,Opened
+git@github.com:daknuett/ljson,1d3dc13001d9d2f61bcfbf9d5c5b16d44fb8076e,test/test_ljson_mem.py::test_unique_check,no,https://github.com/daknuett/ljson/pull/4,Accepted
 git@github.com:davidhalter/parso,6ae0efa415c9790000dba70f87e6ece20d6a4101,test/test_cache.py::test_permission_error,no,https://github.com/davidhalter/parso/pull/195,Opened
 git@github.com:demisto/demisto-sdk,925303e5c54fc3dda985ef19b6d56a956d189f69,demisto_sdk/commands/secrets/tests/secrets_test.py::TestSecrets::test_two_files_with_same_name,no,https://github.com/demisto/demisto-sdk/pull/1574,Opened
 git@github.com:den4uk/jsonextra,e82c2e873b4d9c8105fd4e5ed43e7fae4fe6bc2c,tests/test_jsonextra.py::test_disable_rex,no,https://github.com/den4uk/jsonextra/pull/9,Opened
@@ -92,8 +92,8 @@ git@github.com:mtik00/yamicache,1109d08b18be94bdee55e113309f7be29f25d840,tests/t
 git@github.com:nficano/pytube,b610f399722e001e99ee88d3673c148d903c5948,tests/test_streams.py::test_on_progress_hook,no,,mock
 git@github.com:omersaraf/IOCynergy,1821423680f741d8ca06bcc6a02c8b21156f9ba0,cynergy/tests/test_life_cycle.py::test_multi,no,https://github.com/omersaraf/IOCynergy/pull/3,Opened
 git@github.com:oskar456/dzonegit,8f952086aa41aee4ebb7432926ed8c6a9211ac9f,test_dzonegit.py::test_get_head,yes,https://github.com/oskar456/dzonegit/pull/19,Accepted
-git@github.com:pedrovanzella/do-the-webp,09b372de1c4f1d73d9284517c57c0d869f55144b,tests/test_compressor.py::test_compress_dir,no,,
-git@github.com:politeauthority/docker-pretty-ps,2fcc9db4e391df2b96ccc2e967b41b6263fdcc2d,tests/test_dockerprettyps.py::TestDockerPrettyPs::test_give_json,no,,
+git@github.com:pedrovanzella/do-the-webp,09b372de1c4f1d73d9284517c57c0d869f55144b,tests/test_compressor.py::test_compress_dir,no,,clean
+git@github.com:politeauthority/docker-pretty-ps,2fcc9db4e391df2b96ccc2e967b41b6263fdcc2d,tests/test_dockerprettyps.py::TestDockerPrettyPs::test_give_json,no,https://github.com/politeauthority/docker-pretty-ps/pull/35,Opened
 git@github.com:prymitive/upaas-common,7a7d9ffb385151092c637c3ef500a79623c005ae,tests/test_storage_local.py::test_dir_exists,no,,N/A; archived
 git@github.com:pustotnik/zenmake,6cff05114cea34fc204d9e95422f11dc25cd1228,tests/test_waf_assist.py::testUsedWafTaskKeys,no,https://github.com/pustotnik/zenmake/pull/29,Opened
 git@github.com:python-dugong/python-dugong,00dd4d5aab6eddb116cace2829a9f93bda153664,test/test_aio.py::test_aio_future,no,https://github.com/python-dugong/python-dugong/pull/9,Opened
@@ -109,7 +109,7 @@ git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_examples.py::test_addobject,no,https://github.com/santoshphilip/eppy/pull/355,Opened
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_examples.py::test_pythonic,yes,https://github.com/santoshphilip/eppy/pull/356,Opened
 git@github.com:santoshphilip/eppy,98e58583dce6c0fcec9c7b1ff1142bae0a67ddc7,eppy/tests/test_idfreader.py::test_convertallfields,no,,
-git@github.com:seanbreckenridge/keepassxc-pwned,aead83c1749b62006a28526905d8fee5cd2ae902,tests/test_user_input.py::test_user_input_password_not_found,no,,
+git@github.com:seanbreckenridge/keepassxc-pwned,aead83c1749b62006a28526905d8fee5cd2ae902,tests/test_user_input.py::test_user_input_password_not_found,no,https://github.com/seanbreckenridge/keepassxc-pwned/pull/18,Accepted
 git@github.com:seanpar203/event-bus,5353d6472926a299ab4f3a8c33114a725d5b7639,tests/test_event_emit.py::test_event_emit,no,https://github.com/seanpar203/event-bus/pull/12,Opened
 git@github.com:seanpar203/event-bus,5353d6472926a299ab4f3a8c33114a725d5b7639,tests/test_subscribed_removal.py::test_suscribed_event_was_removed,no,,
 git@github.com:sjoerdk/anonapi,5e70dfd9fcb7dcc4e2345a6a153d9530f4886e73,tests/test_cli_create.py::test_job_parameter_set,yes,,clean
