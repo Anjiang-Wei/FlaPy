@@ -89,13 +89,15 @@ https://github.com/Anjiang-Wei/FlaPy/commit/f5c5c8c5e89122725179d8e881e77b1fb697
 Intuition behind this commit's fix:
 https://github.com/hehao98/FlaPy/commit/f7174706ac7f71d5b79be4b185c12a3b7d366649
 
-1) runexec --output=/dev/stdout --hidden-dir=/home "  # --container
+1) `runexec --output=/dev/stdout --hidden-dir=/home "  # --container`
 
 This command may fail on servers with container installation failure. So simply commenting out the code related with "runexec" will be a good enough fix. This fix takes Hao and me a long time to figure out, so please pay attention to it.
 
-2) timeout 1h
+2) `timeout 1h`
+
 Some projects may get stuck in their "installation" or "test execution" time.
 
-3) rm -rf "${LOCAL_PROJECT_DIR}"
+3) `rm -rf "${LOCAL_PROJECT_DIR}"`
+
 We don't want to remove the project directory after execution, as we want to reproduce the failure tests afterward in exactly the same environment, so we comment this line out.
 
